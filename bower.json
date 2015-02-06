@@ -1,0 +1,11 @@
+{
+  "name": "yndx-button",
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#master"
+  },
+  "devDependencies": {
+    "web-component-tester": "Polymer/web-component-tester#^1.1.4",
+    "component-make": "islands-web-components/component-make#master"
+  }
+}
