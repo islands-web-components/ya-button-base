@@ -12,6 +12,15 @@ Polymer({
    * @private
    */
   domReady: function() {
-    this.content = this.querySelector('.js-content');
+
+  },
+
+  get content() {
+    return this.$.content.innerText;
+  },
+
+  set content(text) {
+    this.fire('ya-button.changed');
+    return this.$.content.innerText = text;
   }
 });
